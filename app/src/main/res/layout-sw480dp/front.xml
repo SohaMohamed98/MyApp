@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/imagesblack"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="280dp"
+        android:layout_height="246dp"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_photo_blue" />
+
+    <RelativeLayout
+        android:layout_width="456dp"
+        android:layout_height="429dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="320dp">
+
+        <TextView
+            android:id="@+id/textTv"
+            android:layout_width="369dp"
+            android:layout_height="67dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="14dp"
+            android:layout_marginTop="114dp"
+            android:baselineAligned="false"
+            android:gravity="left|center"
+            android:hint="press mic Button to input Voice"
+            android:textColor="@color/white"
+            android:textColorHint="@color/white"
+            android:textSize="25sp" />
+
+        <Button
+            android:id="@+id/voiceBtn"
+            android:layout_width="171dp"
+            android:layout_height="158dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="163dp"
+            android:layout_marginBottom="35dp"
+            android:background="@drawable/ic_mic" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
